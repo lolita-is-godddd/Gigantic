@@ -12,6 +12,9 @@ import java.util.*;
 public enum EnchantmentEnum {
 
     //コメントアウトは保留案件
+	
+	//I
+    HUSHITYOU("不死鳥", new HushityouEnchantment(), Material.ELYTRA),
 
     //II
     CHOBA("跳馬", new ChobaEnchantment(), MaterialUtil.getHelmets()),
